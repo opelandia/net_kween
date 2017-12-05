@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "express": "^4.16.2",
+    "instagram": "0.0.4",
+    "mediaelement": "^4.2.7",
+    "node": "^9.2.0",
+    "node-instagram": "^4.1.0",
+    "oauth": "^0.9.15",
+    "side-scrolling-text-layer": "^2.0.0",
+    "socket.io": "^2.0.4",
+    "twit": "^2.2.9",
+    "twitter": "^1.7.1"
+  }
+}
