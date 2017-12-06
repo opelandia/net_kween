@@ -1,6 +1,8 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 const Instagram = require('node-instagram').default;
+var server = require('http').Server( app )
+var io = require('socket.io')(server)
 var request = require('request');
 var OAuth = require('oauth');
 var Twitter = require('twitter');
