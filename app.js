@@ -112,6 +112,7 @@ instaAuthOne.get('users/self/media/recent',{ count: Math.round(Math.random()*15)
 
 //------------------------------------------------------->
 
-app.listen(3000, function(){
-  console.log("running on 3k")
+var port = process.env.PORT || 3000
+server.listen(port, function(){
+  console.log("app listening on port" + port + "!")
 })
