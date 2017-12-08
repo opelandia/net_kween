@@ -82,19 +82,7 @@ $(function(){
       placeRandomly('.insta')
       })
     })
-//------------------------------------------------------
 
-  //
-  //   setInterval(function(){
-  //         // window.location.reload()
-  //           playSound()
-  //        }, 58500)
-  //   setInterval(function(reload){
-  //   window.location.reload()
-  //   // window.ready.playsound() look into this
-  //  }, 60000)
-  //
-  //
 
 }, 30000)
 

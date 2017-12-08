@@ -68,7 +68,8 @@ video {
 	position:absolute;
 	left:100vw;
 	width:10000vw;
-	animation: movesideways 60s linear;
+	animation: movesideways 50s linear infinite;
+	top: 97vh;
 }
 
 @keyframes movesideways {
